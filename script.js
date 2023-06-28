@@ -1,7 +1,7 @@
 let userChoice = prompt("How many rounds do you want to play?").toLowerCase();
 
 let userChoice2 = prompt("Do you pick rock, paper, or scissors? (enter r, p, or s)");
-let computerChoice = Math.floor(Math.random() *3);
+let computerChoice = Math.floor(Math.random() * 3);
 
 if (computerChoice < 0.34)
 {
@@ -45,7 +45,7 @@ let compare = function (userChoice2, computerChoice)
     }
 }
 
-function score(userChoice2, computerChoice) {
+function score(userScore, computerScore) {
     alert("You won " + userScore + " times, you tied " + tiedScore + " times, you lost " + computerScore + " times");
 }
 
