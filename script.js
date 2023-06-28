@@ -1,0 +1,1 @@
+let userChoice = prompt("How many rounds do you want to play?").toLowerCase();
