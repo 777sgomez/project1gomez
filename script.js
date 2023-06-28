@@ -45,7 +45,7 @@ let compare = function (userChoice2, computerChoice)
     }
 }
 
-function score(userScore, computerScore) {
+let compare2 = function score(userScore, computerScore) {
     alert("You won " + userScore + " times, you tied " + tiedScore + " times, you lost " + computerScore + " times");
 }
 
