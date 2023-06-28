@@ -32,4 +32,15 @@ let compare = function (userChoice2, computerChoice)
             alert("You lose! The computer picked " + computerChoice + " which defeats " + userChoice2);
         }
     }
+    else if (userChoice2 === "s")
+    {
+        if (computerChoice === "r")
+        {
+            alert("You lose! The computer picked " + computerChoice + " which defeats " + userChoice2);
+        }
+        else if (computerChoice === "p")
+        {
+            alert("You win! You picked " + userChoice2 + " which defeats " + computerChoice);
+        }
+    }
 }
